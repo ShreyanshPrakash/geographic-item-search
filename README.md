@@ -14,7 +14,7 @@ npm install geographic-item-search
 
 
 **searchElementsWithinDistance( data, lat, long, maxDist, R ) :** Iterates over an array of objects **(data)** that must have
-latitude and longitude in radians as **radianLatitude, radianLongitude** properties. Find the distance of each object from reference point's latitude and longitude **( lat, long )**. Finally, if the distance calculated is under **maxDist** the object
+latitude and longitude in radians as **radianLatitude, radianLongitude** properties. Finds the distance of each object from reference point's latitude and longitude **( lat, long )**. Finally, if the distance calculated is under **maxDist** the object
 is added to result array.
 
 ## Setup
